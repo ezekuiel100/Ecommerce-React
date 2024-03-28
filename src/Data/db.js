@@ -171,7 +171,7 @@ export const products = [
   {
     img: "img/Penalty/Penalty Viento Y-2.webp",
     title: "Penalty Viento Y-2",
-    price: "600",
+    price: 600,
     star: 5,
     category: "chuteira",
     manufacturer: "Penalty",
@@ -188,7 +188,7 @@ export const products = [
   {
     img: "img/Penalty/Penalty Bravo.webp",
     title: "Penalty Bravo Y-3.0",
-    price: 790,
+    price: 500,
     star: 4,
     category: "chuteira",
     manufacturer: "Penalty",
@@ -196,7 +196,7 @@ export const products = [
   {
     img: "img/Penalty/Penalty Líder Y-4.webp",
     title: "Penalty Bravo Y-3.0",
-    price: 790,
+    price: 450,
     star: 5,
     category: "chuteira",
     manufacturer: "Penalty",

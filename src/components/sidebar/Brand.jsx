@@ -3,10 +3,11 @@ import RadioInput from "../RadioInput";
 import { Context } from "../../App";
 
 function Brand() {
-  const { brand, setBrand } = useContext(Context);
+  const { brand, setBrand, setQuery } = useContext(Context);
 
   function handleCategory(e) {
     setBrand(e.target.value);
+    setQuery("");
   }
 
   return (

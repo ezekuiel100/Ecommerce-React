@@ -4,10 +4,12 @@ import { useContext } from "react";
 import { Context } from "../App";
 
 function Nav() {
-  const { setQuery } = useContext(Context);
+  const { query, setQuery, setBrand, setPrice } = useContext(Context);
 
   function handleChange(e) {
     setQuery(e.target.value);
+    setBrand("Todas");
+    setPrice("Todos");
   }
 
   return (
@@ -17,6 +19,7 @@ function Nav() {
         type="text"
         placeholder="Buscar"
         className="bg-gray-200 w-60 rounded-md p-2 outline-none"
+        value={query}
         onChange={(e) => handleChange(e)}
       />
 

@@ -25,7 +25,7 @@ function App() {
       if (price === "0") {
         return product.price <= 300;
       } else if (price === "300") {
-        return product.price >= 300;
+        return product.price >= 300 && product.price <= 500;
       } else if (price === "500") {
         return product.price >= 500;
       }

@@ -3,10 +3,11 @@ import RadioInput from "../RadioInput";
 import { Context } from "../../App";
 
 function Price() {
-  const { price, setPrice } = useContext(Context);
+  const { price, setPrice, setQuery } = useContext(Context);
 
   function handlePreço(e) {
     setPrice(e.target.value);
+    setQuery("");
   }
 
   return (
